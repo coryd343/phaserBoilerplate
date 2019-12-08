@@ -31,7 +31,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     }
     title = 'ng7-phaser3-boilerplate';
 
-    config : GameConfig = {
+    config : Phaser.Types.Core.GameConfig = {
         type: Phaser.CANVAS,
         scale: {
             width: 800,

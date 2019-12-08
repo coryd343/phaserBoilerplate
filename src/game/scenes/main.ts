@@ -8,7 +8,7 @@ export class MainScene extends Scene
     private platforms : Phaser.Physics.Arcade.StaticGroup;
     private player : any;// Phaser.Physics.Arcade.Sprite;
 
-    private cursors : Phaser.Input.Keyboard.CursorKeys;
+    private cursors //: Phaser.Input.Keyboard.CursorKeys;
     private escape : Phaser.Input.Keyboard.Key;
 
     private stars : Phaser.Physics.Arcade.Group;
